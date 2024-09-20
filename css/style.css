@@ -19,7 +19,7 @@ hr {
   overflow: visible; /* 2 */
 }
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: "SF Pro", "SF Pro"; /* 1 */
   font-size: 1em; /* 2 */
 }
 a {
@@ -37,7 +37,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: "SF Pro", "SF Pro"; /* 1 */
   font-size: 1em; /* 2 */
 }
 small {
@@ -153,8 +153,8 @@ template {
 
 :root {
   /* colors */
-  --background: #0E0E0E;
-  --foreground: #F1F1F1;
+  --background: #232831;
+  --foreground: #4c566a;
 
   /* fonts */
   --base-font-size: 18px;
@@ -163,15 +163,15 @@ template {
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis-Medium'), url('../assets/fonts/Metropolis-Medium.woff2');
+  font-family: 'SF Pro';
+  src: local('SF Pro'), url('../assets/fonts/SF-Pro.ttf');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Metropolis';
-  src: local('Metropolis-Bold'), url('../assets/fonts/Metropolis-Black.woff2');
+  font-family: 'SF Pro';
+  src: local('SF Pro'), url('../assets/fonts/SF-Pro.ttf');
   font-weight: 900;
   font-style: normal;
 }
@@ -181,7 +181,7 @@ template {
 }
 
 html {
-  font-family: "Metropolis", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "SF Pro", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: var(--base-font-size);
   font-weight: var(--font-weight-normal);
 }
