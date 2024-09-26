@@ -35,7 +35,7 @@ const CONFIG = {
     {
       category: 'Fun',
       name: 'ChiefDelphi',
-      key: 'c',
+      key: 'cd',
       url: 'https://www.chiefdelphi.com',
       color: 'linear-gradient(135deg, #E50914, #CB020C)',
       icon: 'netflix',
@@ -120,7 +120,7 @@ const CONFIG = {
     {
         category: 'School',
         name: 'Campuswire',
-        key: 'c',
+        key: 'cw',
         url: 'https://campuswire.com/c/G5A0EB83E/feed',
         color: '#1a73e8',
         icon: 'translate',
