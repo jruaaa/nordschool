@@ -147,7 +147,7 @@ const CONFIG = {
     {
         category: 'Courses',
         name: 'MA261 Schedule',
-        key: 's',
+        key: '2',
         url: 'https://www.math.purdue.edu/academic/courses/semester/202510/ma26100/2024-Fall.pdf',
         color: '#1a73e8',
         icon: 'translate',
